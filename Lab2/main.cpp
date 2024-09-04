@@ -16,6 +16,7 @@ int main() {
 	c.setHeight(10);
 	c.setRadius(7);
 	//Outputs the sentence and Method answer
+	std::cout << "With a Height of " << c.getHeight() << " and a Radius of " << c.getRadius() << std::endl;
 	std::cout << "The volume of the cylinder is :" << c.calculateVolume() << std::endl;
 	std::cout << "The Surface Area of the cylinder is :" << c.calculateSurfaceArea() << std::endl;
 	
