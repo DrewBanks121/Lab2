@@ -36,11 +36,12 @@ double Cylinder::getHeight()
 }
 
 //Methods
+//Volume calculation
 double Cylinder::calculateVolume()
 {
 	return Pi*pow(radius,2)*height;
 }
-
+//Surface Area calculation
 double Cylinder::calculateSurfaceArea()
 {
 	return ((Pi * pow(radius, 2))*2)+((Pi * 2 * radius) * height);
